@@ -1,0 +1,16 @@
+add this to the config file
+[alias]
+        unstage = reset HEAD --
+        alias = config --get-regexp ^alias\\.
+        cat = cat-file
+        type = echo blob,tree,commit,tag
+        vp = verify-pack -v .git/objects/pack/pack-978e03944f5c581011e6998cd0e9e30000905586.idx
+        tree = ls-tree
+        count = count-objects --verbose
+        unpack = unpack-objects < ./.git/objects/pack/pack-fa4ba0d3bd8c151227068648cc5131cdde6e1378.pack
+        ix = index-pack ./.git/objects/pack/pack-fa4ba0d3bd8c151227068648cc5131cdde6e1378.pack -o test.idx
+        fp = fetch-pack
+        rp = receive-pack
+        rlm = rev-list master
+        usi = update-server-info
+
