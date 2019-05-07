@@ -1,4 +1,5 @@
 add this to the config file
+
 [alias]
         unstage = reset HEAD --
         alias = config --get-regexp ^alias\\.
@@ -13,4 +14,9 @@ add this to the config file
         rp = receive-pack
         rlm = rev-list master
         usi = update-server-info
+        add-sign-key = config --local user.signingkey 6FB73C35
+        genkey = gpg --gen-key
+        remote-info = remote show
+[user]
+        signingkey = 6FB73C35
 
