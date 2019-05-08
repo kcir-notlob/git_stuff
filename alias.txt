@@ -17,7 +17,8 @@ add this to the config file
         add-sign-key = config --local user.signingkey 6FB73C35
         genkey = gpg --gen-key
         remote-info = remote show
-        patch-multi = git format-patch -x --stdout > patch-ddmmyyy.patch
+        patch-multi = format-patch -x --stdout > patch-ddmmyyy.patch
+        sr =  show-ref
 [user]
         signingkey = 6FB73C35
 
