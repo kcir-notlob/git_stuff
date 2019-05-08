@@ -22,6 +22,7 @@ add this to the config file
         ar = archive --format=zip master  -o test.zip
         list-all = git ls-files | git check-attr -a --stdin
        export-all =  fast-export --all > all.txt
+       say = "!f() { msg=${1-Hello World}; echo $msg;  }; f"
 [user]
         signingkey = 6FB73C35
 
