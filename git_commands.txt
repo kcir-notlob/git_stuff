@@ -3,7 +3,7 @@ lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-add -> git
 git-am -> git -> Apply a series of patches from a mailbox
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-annotate -> git
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-apply -> git
-lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-archive -> git
+git-archive -> git -> Create an archive of files from a named tree
 git-bisect -> Use binary search to find the commit that introduced a bug
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-bisect--helper -> git
 git-blame -> git -> Show what revision and author last modified each line of a file
@@ -14,12 +14,12 @@ lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-check-attr -> git
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-check-ignore -> git
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-check-mailmap -> git
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-checkout -> git
-lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-checkout-index -> git
+git-checkout-index -> git ->  Copy files from the index to the working tree
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-check-ref-format -> git
-lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-cherry -> git
+git-cherry -> git -> Find commits yet to be applied to upstream
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-cherry-pick -> git
--rwxr-xr-x. 2 root root  101990 Nov 26 17:11 git-citool
-lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-clean -> git
+git-citool -> Graphical alternative to git-commit
+git-clean -> git ->Remove untracked files from the working tree 
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-clone -> git
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-column -> git
 lrwxrwxrwx. 1 root root       3 Nov 26 17:12 git-commit -> git

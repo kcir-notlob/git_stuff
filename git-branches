@@ -1,0 +1,8 @@
+#https://github.com/bahmutov/git-branches#adding-to-bash_profile
+branch=""
+branches=`git branch --list`
+while read -r branch; do
+  clean_branch_name=${branch//\*\ /}
+  description=`git config branch.$clean_branch_name.description`
+  printf "%-15s %s\n" "$branch" "$description"
+  done <<< "$branches"
