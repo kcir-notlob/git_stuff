@@ -25,6 +25,7 @@ add this to the config file
        say = "!f() { msg=${1-Hello}; echo $msg;  }; f" 
        sb = show-branch
        cn =  clean -f -d
+       glog = log --grep #filter log file with the text following grep
 [user]
         signingkey = 6FB73C35
 
