@@ -23,6 +23,7 @@ add this to the config file
         list-all = git ls-files | git check-attr -a --stdin
        export-all =  fast-export --all > all.txt
        say = "!f() { msg=${1-Hello}; echo $msg;  }; f" 
+       sb = show-branch
 [user]
         signingkey = 6FB73C35
 
