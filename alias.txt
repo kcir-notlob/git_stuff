@@ -27,6 +27,8 @@ add this to the config file
        cn =  clean -f -d
        glog = log --grep #filter log file with the text following grep
        last = git log -1 HEAD
+       up = unpack-file #from a blob to returned name
+
 [user]
         signingkey = 6FB73C35
 
