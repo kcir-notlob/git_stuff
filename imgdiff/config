@@ -1,0 +1,5 @@
+[core]
+	attributesfile = /home/test/dev/git_pack/.gitattributes
+[diff "image"]
+	command = /home/test/dev/git_pack/git-imgdiff
+
