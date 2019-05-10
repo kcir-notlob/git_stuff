@@ -36,6 +36,7 @@ add this to the config file
        ct = commit-tree #manually commit a tree
        list-config = config  -l --show-origin
        rl = reflog
+       rla = reflog show --all
 
 [user]
         signingkey = 6FB73C35
