@@ -33,6 +33,7 @@ add this to the config file
        uo = hash-object #return the hash for a file
        last-file = cat-file -p "master^{tree}" #last file on the master branch
        wt = write-tree #write the index tree out to an object in the db
+       ct = commit-tree #manually commit a tree
 
 [user]
         signingkey = 6FB73C35
