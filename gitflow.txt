@@ -1,0 +1,20 @@
+urls
+https://nvie.com/posts/a-successful-git-branching-model/
+https://jeffkreeftmeijer.com/git-flow/
+
+
+installation on fedora 
+sudo dnf install  gitflow
+
+code is located at /usr/share/gitflow
+note getopt is required by gitflow
+
+commands
+git flow init #initalise the git flow
+git flow feature start <name>
+git flow feature finish <name>
+git flow release start <version>
+git flow release finish <version>
+
+
+
