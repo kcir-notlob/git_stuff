@@ -47,6 +47,9 @@ add this to the config file
        submodule-init =  submodule update --init --recursive #get the code for submodules
        commit-orphan = checkout --orphan <name> #create a new initial start point
        merge-unrelated = merge  --allow-unrelated-histories <name>  #merge from unrelated starting point
+       list-all-objects =  rev-list --objects -g --no-walk --all #list all reachable objects
+       list-unreachable-objects =  fsck --unreachable
+
 
 
 [user]
