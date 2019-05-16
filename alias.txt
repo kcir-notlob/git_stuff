@@ -52,6 +52,7 @@ add this to the config file
        find-best-merge-point = merge-base --ia-ancestor <commitid> <commitid>
        check-if-branch-contains-commit = branch --contains #<commit id>
        current-branch =  symbolic-ref --short  HEAD
+       tag-get-sha1 = rev-parse #<tagname>
 
 
 
