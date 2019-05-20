@@ -12,7 +12,7 @@ add this to the config file
         ix = index-pack ./.git/objects/pack/pack-fa4ba0d3bd8c151227068648cc5131cdde6e1378.pack -o test.idx
         fp = fetch-pack
         rp = receive-pack
-        rlm = rev-list master
+        rlm = rev-list master #list objects in reverse order
         usi = update-server-info
         add-sign-key = config --local user.signingkey 6FB73C35
         genkey = gpg --gen-key
@@ -56,6 +56,8 @@ add this to the config file
        log-follow = log --follow <path to file> #show all the commit
        indexed-files =  ls-files --stage --debug
        merge-test = merge-tree start master two #test a tree merge without using the index <dag start> <dag current> <dag branch"
+       push-to-remote-set-branch = push --set-upstream # <local remote name> <branch name> 
+       remote-add = remote add #<local name for remote> <remote url> #manually add a remote repository
 
 
 [user]
