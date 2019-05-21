@@ -58,6 +58,7 @@ add this to the config file
        merge-test = merge-tree start master two #test a tree merge without using the index <dag start> <dag current> <dag branch"
        push-to-remote-set-branch = push --set-upstream # <local remote name> <branch name> 
        remote-add = remote add #<local name for remote> <remote url> #manually add a remote repository
+       kill-orphans =  prune #remove unreachable nodes
 
 
 [user]
