@@ -60,6 +60,7 @@ add this to the config file
        push-to-remote-set-branch = push --set-upstream # <local remote name> <branch name> 
        remote-add = remote add #<local name for remote> <remote url> #manually add a remote repository
        kill-orphans =  prune #remove unreachable nodes
+       web-show = git web--browse #file
 
 
 [user]
