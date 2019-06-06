@@ -1,4 +1,4 @@
-git-gui
-gitk
-git-cola
+git-gui   #dnf install git-gui
+gitk      #dnf install gitk
+git-cola  #dnf install git-cola
 
